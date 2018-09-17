@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:1-9:12
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:1-9:12
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:5:5-7:19
+activity#com.example.libandroid.ShowJokes
+ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:6:9-56
+	android:name
+		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml:6:19-44
+uses-sdk
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libandroid/src/main/AndroidManifest.xml
