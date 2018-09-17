@@ -22,7 +22,8 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 import java.io.IOException;
 
 
-public class MainActivity extends AppCompatActivity implements OnTaskCompleted {
+//public class MainActivity extends AppCompatActivity implements OnTaskCompleted {
+public class MainActivity extends AppCompatActivity {
 
 
     @Override
@@ -59,20 +60,31 @@ public class MainActivity extends AppCompatActivity implements OnTaskCompleted {
         jokeModel.getJoke();
         // Toast.makeText(this, jokeModel.getJoke(), Toast.LENGTH_SHORT).show();
 
-       // EndpointsAsyncTask endpointsAsyncTask=new EndpointsAsyncTask();
-      //  endpointsAsyncTask.EndpointsAsyncTask(this);
-       // new EndpointsAsyncTask().EndpointsAsyncTask(this);
-        new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
+        // EndpointsAsyncTask endpointsAsyncTask=new EndpointsAsyncTask();
+        //  endpointsAsyncTask.EndpointsAsyncTask(this);
+        // new EndpointsAsyncTask().EndpointsAsyncTask(this);
+        // new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
 
         // Intent intent = new Intent(this, ShowJokes.class);
         //intent.putExtra("joke", jokeModel.getJoke());
         //startActivity(intent);
+
+
+        EndpointsAsyncTask asyncTask = new EndpointsAsyncTask(new OnTaskCompleted() {
+
+            @Override
+            public void onTaskCompleted(String result) {
+                showJoke(result);
+            }
+        });
+        asyncTask.execute(new Pair<Context, String>(this, "Manfred"));
+
     }
 
-    @Override
+    /*@Override
     public void onTaskCompleted(String result) {
         showJoke(result);
-    }
+    }*/
 
     /*class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
         private MyApi myApiService = null;

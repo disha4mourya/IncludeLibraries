@@ -16,13 +16,14 @@ import java.io.IOException;
 
 public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
 
-   // private OnTaskCompleted onTaskCompleted;
+    private OnTaskCompleted onTaskCompleted;
     private MyApi myApiService = null;
     private Context context;
 
-  /*  void EndpointsAsyncTask(OnTaskCompleted onTaskCompleted){
+    public EndpointsAsyncTask(OnTaskCompleted onTaskCompleted) {
         this.onTaskCompleted=onTaskCompleted;
-    }*/
+    }
+
     @Override
     protected String doInBackground(Pair<Context, String>... params) {
         if(myApiService == null) {  // Only do this once
@@ -59,7 +60,7 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
     protected void onPostExecute(String result) {
         Log.d("resultIs",result);
         Toast.makeText(context, result, Toast.LENGTH_LONG).show();
-       // onTaskCompleted.onTaskCompleted(result);
+        onTaskCompleted.onTaskCompleted(result);
         //showJoke(result);
     }
 }
