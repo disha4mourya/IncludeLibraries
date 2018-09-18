@@ -1,5 +1,6 @@
 package com.udacity.gradle.builditbigger;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 
 
@@ -15,6 +17,9 @@ import com.google.android.gms.ads.MobileAds;
  * A placeholder fragment containing a simple view.
  */
 public class MainActivityFragment extends Fragment {
+
+    private InterstitialAd interstitialAd;
+    Context context;
 
     public MainActivityFragment() {
     }
@@ -26,9 +31,19 @@ public class MainActivityFragment extends Fragment {
 
         MobileAds.initialize(getContext(), getString(R.string.ad_id));
 
-            AdView mAdView = root.findViewById(R.id.adView);
-            AdRequest adRequest = new AdRequest.Builder().build();
-            mAdView.loadAd(adRequest);
+        AdView mAdView = root.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+        context = getContext();
+
+        interstitialAd = new InterstitialAd(context);
+        interstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        //interstitialAd.setAdUnitId("ca-app-pub-3618385313260419/5746003436");
+        interstitialAd.loadAd(new AdRequest.Builder().build());
+        if (interstitialAd.isLoaded()) {
+            interstitialAd.show();
+        }
 
         // Create an ad request. Check logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.

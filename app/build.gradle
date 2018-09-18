@@ -80,7 +80,9 @@ dependencies {
     })
 
     testImplementation 'junit:junit:4.12'
-    compile project(path: ':libJava')
-    compile project(path: ':libandroid')
+    implementation project(path: ':libJava')
+    implementation project(path: ':libandroid')
     //compile project(path: ':backend')
+    endpointsServer project(path: ':backend', configuration: 'endpoints')
 }
+

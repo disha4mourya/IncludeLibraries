@@ -4,7 +4,7 @@
             "outputFile": "/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/incremental/mergeFreeDebugResources/merged.dir/values-zu/values-zu.xml",
             "map": [
                 {
-                    "source": "/home/disham/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2b2da86f22205cdc6438ae9036fa6f73/res/values-zu/values-zu.xml",
+                    "source": "/home/disham/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/d481cda87cab5ba0cb5081134bf85a31/res/values-zu/values-zu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/35b29d24efc3711259d8940ea082d4f2/res/values-zu/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "197,273,390,456,521,602,706",
-                        "endColumns": "75,116,65,64,80,103,74",
-                        "endOffsets": "272,389,455,520,601,705,780"
-                    },
-                    "to": {
-                        "startLines": "20,21,22,23,24,25,26",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "2069,2149,2270,2340,2409,2494,2602",
-                        "endColumns": "79,120,69,68,84,107,78",
-                        "endOffsets": "2144,2265,2335,2404,2489,2597,2676"
-                    }
-                },
-                {
-                    "source": "/home/disham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/04e966d9d70ff8741285880c61470ac0/res/values-zu/values-zu.xml",
+                    "source": "/home/disham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e7b6eea9c831ccab5fb498dbe049db67/res/values-zu/values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/disham/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/440f217324e1054bf6b8e7db4f33cc48/res/values-zu/values.xml",
+                    "source": "/home/disham/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/65fbc40ca46530fff9998c671ba8cf94/res/values-zu/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -69,6 +52,23 @@
                         "startOffsets": "1878",
                         "endColumns": "190",
                         "endOffsets": "2064"
+                    }
+                },
+                {
+                    "source": "/home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/7785a388023d6d37cab47c26dcd27b01/res/values-zu/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,273,390,456,521,602,706",
+                        "endColumns": "75,116,65,64,80,103,74",
+                        "endOffsets": "272,389,455,520,601,705,780"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2069,2149,2270,2340,2409,2494,2602",
+                        "endColumns": "79,120,69,68,84,107,78",
+                        "endOffsets": "2144,2265,2335,2404,2489,2597,2676"
                     }
                 }
             ]

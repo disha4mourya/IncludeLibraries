@@ -9,6 +9,7 @@ import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.example.libandroid.ShowJokes;
@@ -25,11 +26,13 @@ import java.io.IOException;
 //public class MainActivity extends AppCompatActivity implements OnTaskCompleted {
 public class MainActivity extends AppCompatActivity {
 
+    ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        progressBar=findViewById(R.id.pbLoadJoke);
     }
 
 
@@ -56,8 +59,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        JokeModel jokeModel = new JokeModel();
-        jokeModel.getJoke();
+       /* JokeModel jokeModel = new JokeModel();
+        jokeModel.getJoke();*/
         // Toast.makeText(this, jokeModel.getJoke(), Toast.LENGTH_SHORT).show();
 
         // EndpointsAsyncTask endpointsAsyncTask=new EndpointsAsyncTask();
@@ -70,10 +73,12 @@ public class MainActivity extends AppCompatActivity {
         //startActivity(intent);
 
 
+        progressBar.setVisibility(View.VISIBLE);
         EndpointsAsyncTask asyncTask = new EndpointsAsyncTask(new OnTaskCompleted() {
 
             @Override
             public void onTaskCompleted(String result) {
+                progressBar.setVisibility(View.GONE);
                 showJoke(result);
             }
         });

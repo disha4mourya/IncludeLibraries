@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Sep 17 18:31:39 IST 2018
+#Tue Sep 18 12:00:47 IST 2018
 2.base=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/free/debug/0
 0.path=classes.dex
 2.baseType=DIRECTORY
