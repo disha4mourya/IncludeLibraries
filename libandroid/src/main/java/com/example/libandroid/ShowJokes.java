@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class ShowJokes extends AppCompatActivity {
 
-    String jokePassed="";
+    String jokePassed = "";
     TextView tvJoke;
 
     @Override
@@ -15,11 +15,12 @@ public class ShowJokes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_jokes);
 
-        tvJoke=findViewById(R.id.tvJoke);
+        tvJoke = findViewById(R.id.tvJoke);
 
-        Intent intentData=getIntent();
-        jokePassed=intentData.getStringExtra("joke");
-        tvJoke.setText(jokePassed);
+        Intent intentData = getIntent();
+        jokePassed = intentData.getStringExtra("joke");
+        if (jokePassed != null)
+            tvJoke.setText(jokePassed);
 
     }
 }

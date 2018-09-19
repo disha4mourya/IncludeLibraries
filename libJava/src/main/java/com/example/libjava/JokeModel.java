@@ -1,7 +1,7 @@
 package com.example.libjava;
 
 public class JokeModel {
-    private String joke="This is joke";
+    private String joke="This is a joke";
 
     public String getJoke() {
         return joke;

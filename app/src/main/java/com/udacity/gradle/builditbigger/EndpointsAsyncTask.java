@@ -21,17 +21,15 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
     private Context context;
 
     public EndpointsAsyncTask(OnTaskCompleted onTaskCompleted) {
-        this.onTaskCompleted=onTaskCompleted;
+        this.onTaskCompleted = onTaskCompleted;
     }
 
     @Override
     protected String doInBackground(Pair<Context, String>... params) {
-        if(myApiService == null) {  // Only do this once
+        if (myApiService == null) {
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
-                    // options for running against local devappserver
-                    // - 10.0.2.2 is localhost's IP address in Android emulator
-                    // - turn off compression when running against local devappserver
+
                     .setRootUrl("http://10.0.2.2:8080/_ah/api/")
                     .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
                         @Override
@@ -39,14 +37,11 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
                             abstractGoogleClientRequest.setDisableGZipContent(true);
                         }
                     });
-            // end options for devappserver
 
             myApiService = builder.build();
         }
 
-       // onTaskCompleted = params[0].first;
         context = params[0].first;
-       // onTaskCompleted=context;
         String name = params[0].second;
 
         try {
@@ -58,9 +53,7 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
 
     @Override
     protected void onPostExecute(String result) {
-        Log.d("resultIs",result);
-        Toast.makeText(context, result, Toast.LENGTH_LONG).show();
+        Log.d("resultIs", result);
         onTaskCompleted.onTaskCompleted(result);
-        //showJoke(result);
     }
 }

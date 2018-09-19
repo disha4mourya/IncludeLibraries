@@ -1,23 +1,11 @@
 #Internal package file, do not edit.
-#Tue Sep 18 12:00:47 IST 2018
-2.base=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/free/debug/0
-0.path=classes.dex
-2.baseType=DIRECTORY
-3.base=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/free/debug/3
-2.set=DEX
-1.path=classes.dex
-4.base=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/free/debug/1
-count=5
-2.path=classes.dex
-4.set=DEX
-3.path=classes.dex
-3.baseType=DIRECTORY
-1.set=DEX
-4.path=classes.dex
-1.baseType=DIRECTORY
-0.base=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/free/debug/4
+#Wed Sep 19 11:28:10 IST 2018
+1.base=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/free/debug/5
 0.baseType=DIRECTORY
-3.set=DEX
-1.base=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/free/debug/2
-4.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
 0.set=DEX
+0.base=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/free/debug/5
+1.path=classes2.dex

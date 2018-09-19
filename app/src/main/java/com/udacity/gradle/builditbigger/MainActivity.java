@@ -23,7 +23,6 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 import java.io.IOException;
 
 
-//public class MainActivity extends AppCompatActivity implements OnTaskCompleted {
 public class MainActivity extends AppCompatActivity {
 
     ProgressBar progressBar;
@@ -38,19 +37,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
+
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
@@ -59,19 +55,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-       /* JokeModel jokeModel = new JokeModel();
-        jokeModel.getJoke();*/
-        // Toast.makeText(this, jokeModel.getJoke(), Toast.LENGTH_SHORT).show();
-
-        // EndpointsAsyncTask endpointsAsyncTask=new EndpointsAsyncTask();
-        //  endpointsAsyncTask.EndpointsAsyncTask(this);
-        // new EndpointsAsyncTask().EndpointsAsyncTask(this);
-        // new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
-
-        // Intent intent = new Intent(this, ShowJokes.class);
-        //intent.putExtra("joke", jokeModel.getJoke());
-        //startActivity(intent);
-
 
         progressBar.setVisibility(View.VISIBLE);
         EndpointsAsyncTask asyncTask = new EndpointsAsyncTask(new OnTaskCompleted() {
@@ -85,52 +68,6 @@ public class MainActivity extends AppCompatActivity {
         asyncTask.execute(new Pair<Context, String>(this, "Manfred"));
 
     }
-
-    /*@Override
-    public void onTaskCompleted(String result) {
-        showJoke(result);
-    }*/
-
-    /*class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
-        private MyApi myApiService = null;
-        private Context context;
-
-        @Override
-        protected String doInBackground(Pair<Context, String>... params) {
-            if (myApiService == null) {  // Only do this once
-                MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
-                        new AndroidJsonFactory(), null)
-                        // options for running against local devappserver
-                        // - 10.0.2.2 is localhost's IP address in Android emulator
-                        // - turn off compression when running against local devappserver
-                        .setRootUrl("http://10.0.2.2:8080/_ah/api/")
-                        .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
-                            @Override
-                            public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest) throws IOException {
-                                abstractGoogleClientRequest.setDisableGZipContent(true);
-                            }
-                        });
-                // end options for devappserver
-
-                myApiService = builder.build();
-            }
-
-            context = params[0].first;
-            String name = params[0].second;
-
-            try {
-                return myApiService.sayHi(name).execute().getData();
-            } catch (IOException e) {
-                return e.getMessage();
-            }
-        }
-
-        @Override
-        protected void onPostExecute(String result) {
-            Toast.makeText(context, result, Toast.LENGTH_LONG).show();
-            showJoke(result);
-        }
-    }*/
 
     public void showJoke(String joke) {
         Intent intent = new Intent(this, ShowJokes.class);
