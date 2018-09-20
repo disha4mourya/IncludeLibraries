@@ -610,7 +610,6 @@ com/google/common/reflect/Types.class
 com/google/common/collect/ImmutableMultiset.class
 com/google/common/reflect/MutableTypeToInstanceMap.class
 com/google/common/collect/ImmutableCollection.class
-com/udacity/gradle/builditbigger/backend/myApi/MyApi$SayHi.class
 com/google/android/gms/internal/ads/zzagm.class
 com/google/android/gms/internal/ads/zznh.class
 com/google/android/gms/internal/ads/zzahj.class

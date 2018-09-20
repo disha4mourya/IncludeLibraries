@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 showJoke(result);
             }
         });
-        asyncTask.execute(new Pair<Context, String>(this, "Manfred"));
+        asyncTask.execute();
 
     }
 

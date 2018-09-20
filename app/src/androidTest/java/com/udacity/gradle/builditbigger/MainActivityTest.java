@@ -48,6 +48,7 @@ import static org.junit.Assert.assertThat;
 public class MainActivityTest extends InstrumentationTestCase {
 
     private MyApi myApiService = null;
+    OnTaskCompleted onTaskCompleted;
 
     @Rule
     public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
@@ -90,7 +91,7 @@ public class MainActivityTest extends InstrumentationTestCase {
     public void testSomeAsynTask() throws Throwable {
         final CountDownLatch signal = new CountDownLatch(1);
 
-        final AsyncTask<String, Void, String> myTask = new AsyncTask<String, Void, String>() {
+       /* final AsyncTask<String, Void, String> myTask = new AsyncTask<String, Void, String>() {
 
             @Override
             protected String doInBackground(String... arg0) {
@@ -127,13 +128,25 @@ public class MainActivityTest extends InstrumentationTestCase {
                 assertThat(result, not(isEmptyString()));
                 assertNotEquals(result, "");
             }
-        };
+        };*/
 
-        myTask.execute("Do something");
 
-        signal.await(30, TimeUnit.SECONDS);
+        EndpointsAsyncTask asyncTask = new EndpointsAsyncTask(new OnTaskCompleted() {
 
-        assertTrue("Happiness", true);
+            @Override
+            public void onTaskCompleted(String result) {
+                assertThat(result, not(isEmptyString()));
+                assertNotEquals(result,"Something went wrong");
+            }
+        });
+        asyncTask.execute();
+
+
+        // myTask.execute("Do something");
+
+      //  signal.await(30, TimeUnit.SECONDS);
+
+       // assertTrue("Happiness", true);
     }
 
 }

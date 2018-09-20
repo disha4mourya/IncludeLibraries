@@ -6,6 +6,7 @@ import android.util.Log;
 import android.util.Pair;
 import android.widget.Toast;
 
+import com.google.android.gms.common.internal.safeparcel.SafeParcelable;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
@@ -14,7 +15,7 @@ import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 
 import java.io.IOException;
 
-public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
+public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
 
     private OnTaskCompleted onTaskCompleted;
     private MyApi myApiService = null;
@@ -25,7 +26,7 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
     }
 
     @Override
-    protected String doInBackground(Pair<Context, String>... params) {
+    protected String doInBackground(Void... voids) {
         if (myApiService == null) {
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
@@ -38,18 +39,30 @@ public class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, S
                         }
                     });
 
+
+
             myApiService = builder.build();
         }
 
-        context = params[0].first;
-        String name = params[0].second;
+       /* context = params[0].first;
+        String name = params[0].second;*/
 
         try {
-            return myApiService.sayHi(name).execute().getData();
+
+
+            /*if(myApiService.sayHi(name).execute().getData()){
+
+                return null;
+
+            }*/
+            //return myApiService.sayHi(name).execute().getData();
+            return myApiService.sayHi().execute().getData();
         } catch (IOException e) {
-            return e.getMessage();
+            return "Something went wrong";
+            //return e.getMessage();
         }
     }
+
 
     @Override
     protected void onPostExecute(String result) {
