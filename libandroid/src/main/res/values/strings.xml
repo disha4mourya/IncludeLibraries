@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">libAndroid</string>
+    <string name="jokes">joke</string>
 </resources>
