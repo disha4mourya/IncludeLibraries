@@ -80,8 +80,8 @@ dependencies {
     })
 
     testImplementation 'junit:junit:4.12'
-    implementation project(path: ':libJava')
-    implementation project(path: ':libandroid')
+    implementation project(path: ':libProvideJokes')
+    implementation project(path: ':libShowJokes')
     //compile project(path: ':backend')
     endpointsServer project(path: ':backend', configuration: 'endpoints')
 }

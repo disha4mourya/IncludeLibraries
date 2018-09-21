@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Thu Sep 20 10:32:42 IST 2018
-0.baseType=DIRECTORY
-0.base=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/androidTest/free/debug/0
-0.path=classes.dex
-0.set=DEX
-count=1

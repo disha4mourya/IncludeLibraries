@@ -1,4 +1,0 @@
-#Thu Sep 20 10:32:42 IST 2018
-base.0=/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/transforms/dexMerger/androidTest/free/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
