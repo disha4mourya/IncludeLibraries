@@ -19,6 +19,9 @@ public class ShowJokes extends AppCompatActivity {
 
         Intent intentData = getIntent();
         jokePassed = intentData.getStringExtra(getString(R.string.jokes));
+
+       // String[] splitted = joined.split(", next");
+
         if (jokePassed != null)
             tvJoke.setText(jokePassed);
 
