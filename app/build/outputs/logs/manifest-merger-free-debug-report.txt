@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:2:1-40:12
-MERGED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:2:1-40:12
 MERGED from [com.android.support:multidex:1.0.2] /home/disham/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/7c02affc20facd4a33841f2b31888177/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/7785a388023d6d37cab47c26dcd27b01/AndroidManifest.xml:17:1-25:12
-MERGED from [:libShowJokes] /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:libShowJokes] /home/disham/Downloads/androidjavalibproject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/disham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/941d458df4b38a63ec31ece8c83c6047/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/disham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e7b6eea9c831ccab5fb498dbe049db67/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:customtabs:26.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/06dbe9dd6c901f38003806c6460a4477/AndroidManifest.xml:17:1-28:12
@@ -28,47 +28,47 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/disham/.gradle/ca
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/f79ad1a5ba4c3b566d5f654a9b6b4532/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a360fd18812f2b154679f08f1aa1bd9d/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0b0d1df311f40954a133abff1ef3a90c/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:2:1-40:12
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:2:1-40:12
 	package
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:4:5-47
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:4:5-47
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:2:1-40:12
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:2:1-40:12
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:2:1-40:12
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:7:5-67
-MERGED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:7:5-67
-MERGED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:7:5-67
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/b3f940036ced4954d10f240f35191077/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/b3f940036ced4954d10f240f35191077/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:7:22-64
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:7:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:8:5-79
-MERGED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:8:5-79
-MERGED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:8:5-79
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/b3f940036ced4954d10f240f35191077/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/b3f940036ced4954d10f240f35191077/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:10:5-38:19
-MERGED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:10:5-38:19
-MERGED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:10:5-38:19
-MERGED from [:libShowJokes] /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-13:19
-MERGED from [:libShowJokes] /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-13:19
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:10:5-38:19
+MERGED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:10:5-38:19
+MERGED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:10:5-38:19
+MERGED from [:libShowJokes] /home/disham/Downloads/androidjavalibproject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-13:19
+MERGED from [:libShowJokes] /home/disham/Downloads/androidjavalibproject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-13:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/disham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/941d458df4b38a63ec31ece8c83c6047/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/disham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/941d458df4b38a63ec31ece8c83c6047/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:customtabs:26.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/06dbe9dd6c901f38003806c6460a4477/AndroidManifest.xml:22:5-26:19
@@ -88,43 +88,43 @@ MERGED from [com.android.support:support-v4:26.1.0] /home/disham/.gradle/caches/
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/31856ef9e6bc5bd1d039ad9b664812d7/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/31856ef9e6bc5bd1d039ad9b664812d7/AndroidManifest.xml:25:5-29:19
 	android:label
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:13:9-41
 	tools:ignore
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:15:9-48
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:15:9-48
 	android:icon
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:11:9-36
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:11:9-36
 	android:theme
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.udacity.gradle.builditbigger.MainActivity
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:20:9-28:20
-MERGED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:20:9-28:20
-MERGED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:20:9-28:20
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:20:9-28:20
+MERGED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:20:9-28:20
+MERGED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:20:9-28:20
 	android:label
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:22:13-45
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:22:13-45
 	android:name
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:21:13-41
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:21:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml:26:27-74
 uses-sdk
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:multidex:1.0.2] /home/disham/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/7c02affc20facd4a33841f2b31888177/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] /home/disham/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/7c02affc20facd4a33841f2b31888177/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-ads:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/7785a388023d6d37cab47c26dcd27b01/AndroidManifest.xml:21:5-23:62
 MERGED from [com.google.android.gms:play-services-ads:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/7785a388023d6d37cab47c26dcd27b01/AndroidManifest.xml:21:5-23:62
-MERGED from [:libShowJokes] /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:libShowJokes] /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:libShowJokes] /home/disham/Downloads/androidjavalibproject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:libShowJokes] /home/disham/Downloads/androidjavalibproject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/disham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/941d458df4b38a63ec31ece8c83c6047/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/disham/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/941d458df4b38a63ec31ece8c83c6047/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/disham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e7b6eea9c831ccab5fb498dbe049db67/AndroidManifest.xml:20:5-44
@@ -165,46 +165,46 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/disham/.gradle/caches/t
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a360fd18812f2b154679f08f1aa1bd9d/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0b0d1df311f40954a133abff1ef3a90c/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0b0d1df311f40954a133abff1ef3a90c/AndroidManifest.xml:20:5-44
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml
-INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/7785a388023d6d37cab47c26dcd27b01/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/main/AndroidManifest.xml
-		INJECTED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml
 meta-data#com.google.android.gms.version
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:17:9-19:69
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:17:9-19:69
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/65fbc40ca46530fff9998c671ba8cf94/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/65fbc40ca46530fff9998c671ba8cf94/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:19:13-66
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:19:13-66
 	android:name
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:18:13-58
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:18:13-58
 activity#com.google.android.gms.ads.AdActivity
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:30:9-33:64
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:30:9-33:64
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/b3f940036ced4954d10f240f35191077/AndroidManifest.xml:29:9-33:64
 MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/b3f940036ced4954d10f240f35191077/AndroidManifest.xml:29:9-33:64
 	android:exported
 		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/disham/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/b3f940036ced4954d10f240f35191077/AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:32:13-122
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:32:13-122
 	android:theme
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:33:13-61
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:33:13-61
 	android:name
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:31:13-65
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:31:13-65
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:34:9-36:70
+ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:34:9-36:70
 	android:value
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:36:13-68
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:36:13-68
 	android:name
-		ADDED from /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/src/free/AndroidManifest.xml:35:13-69
+		ADDED from /home/disham/Downloads/androidjavalibproject/app/src/free/AndroidManifest.xml:35:13-69
 activity#com.example.libandroid.ShowJokes
-ADDED from [:libShowJokes] /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-69
+ADDED from [:libShowJokes] /home/disham/Downloads/androidjavalibproject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-69
 	android:name
-		ADDED from [:libShowJokes] /home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:19-66
+		ADDED from [:libShowJokes] /home/disham/Downloads/androidjavalibproject/libShowJokes/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:19-66
 meta-data#android.support.VERSION
 ADDED from [com.android.support:customtabs:26.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/06dbe9dd6c901f38003806c6460a4477/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] /home/disham/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/85ede86c353b164fa4adc343087b01ea/AndroidManifest.xml:26:9-28:38

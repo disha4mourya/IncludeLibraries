@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/home/disham/Downloads/androidjavalibproject/app/build/intermediates/incremental/mergeFreeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/disham/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e7b6eea9c831ccab5fb498dbe049db67/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/disham/Downloads/Disha4Mourya-udacityfinalproject-0df79128a091/FinalProject/app/build/intermediates/incremental/mergeFreeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
