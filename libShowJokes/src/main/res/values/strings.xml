@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">libAndroid</string>
     <string name="jokes">joke</string>
+    <string name="split_key">, next</string>
 </resources>

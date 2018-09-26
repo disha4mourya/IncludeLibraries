@@ -79,7 +79,7 @@ public class MainActivityTest extends InstrumentationTestCase {
             @Override
             public void onTaskCompleted(String result) {
                 assertThat(result, not(isEmptyString()));
-                assertNotEquals(result, "Something went wrong");
+                assertNotEquals(result, "Something went wrong, next Something went wrong");
             }
         });
         asyncTask.execute();

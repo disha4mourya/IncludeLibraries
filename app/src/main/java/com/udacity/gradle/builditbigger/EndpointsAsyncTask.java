@@ -38,7 +38,7 @@ public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
         try {
             return myApiService.sayHi().execute().getData();
         } catch (IOException e) {
-            return "Something went wrong";
+            return "Something went wrong , next Something went wrong";
         }
     }
 
