@@ -42,7 +42,6 @@ public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
         }
     }
 
-
     @Override
     protected void onPostExecute(String result) {
         Log.d("resultIs", result);
