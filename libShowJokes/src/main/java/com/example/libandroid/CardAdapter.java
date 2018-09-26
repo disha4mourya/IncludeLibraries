@@ -7,7 +7,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 public class CardAdapter extends BaseAdapter {
-    private String[] resIds = {};
+    private String[] resIds;
 
     CardAdapter(String[] resIds) {
         this.resIds = resIds;
@@ -36,7 +36,6 @@ public class CardAdapter extends BaseAdapter {
         }
         TextView tvJoke = convertView.findViewById(R.id.tvJoke);
         tvJoke.setText(resIds[position]);
-        //convertView.setBackgroundResource(resIds[position]);
         return convertView;
     }
 }

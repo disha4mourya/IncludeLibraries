@@ -34,28 +34,15 @@ android {
     }
     productFlavors {
         free {
-            // Assigns this product flavor to the "version" flavor dimension.
-            // This property is optional if you are using only one dimension.
-            // applicationIdSuffix ".free"
-            //versionNameSuffix "-free"
             applicationId "com.udacity.gradle.builditbigger.free"
         }
         paid {
-            // applicationIdSuffix ".paid"
-            // versionNameSuffix "-paid"
             applicationId "com.udacity.gradle.builditbigger.paid"
         }
     }
 
     sourceSets {
-       /* main {
-            manifest.srcFile 'AndroidManifest.xml'
-            java.srcDirs = ['src/main/java']
-            res.srcDirs = ['src/main/res']
-            assets.srcDirs = ['src/main/assets']
-        }*/
         paid {
-           // manifest.srcFile 'src/pro/AndroidManifestPro.xml'
             java.srcDirs = ['src/paid/java']
         }
         free {
