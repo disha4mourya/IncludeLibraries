@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorCard">#008080</color>
-    <color name="colorWhite">#FFFFFF</color>
-    <string name="app_name">libAndroid</string>
-    <string name="jokes">joke</string>
-    <string name="split_key">, next</string>
-</resources>

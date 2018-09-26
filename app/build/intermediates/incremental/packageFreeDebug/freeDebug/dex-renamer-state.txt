@@ -1,4 +1,4 @@
-#Wed Sep 26 11:13:12 IST 2018
+#Wed Sep 26 14:40:19 IST 2018
 path.1=classes.dex
 path.0=classes.dex
 renamed.6=classes7.dex
@@ -11,10 +11,10 @@ renamed.0=classes.dex
 base.6=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/3
 base.5=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/6
 base.4=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/5
-base.3=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/7
-base.2=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/2
-base.1=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/1
-base.0=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/4
+base.3=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/2
+base.2=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/1
+base.1=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/4
+base.0=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/0
 path.6=classes.dex
 path.5=classes.dex
 path.4=classes.dex
