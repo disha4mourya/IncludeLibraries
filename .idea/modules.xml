@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/androidjavalibproject.iml" filepath="$PROJECT_DIR$/androidjavalibproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IncludeLibrariess.iml" filepath="$PROJECT_DIR$/IncludeLibrariess.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/libProvideJokes/libProvideJokes.iml" filepath="$PROJECT_DIR$/libProvideJokes/libProvideJokes.iml" />

@@ -14,6 +14,21 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/incremental/mergeFreeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/dishamourya/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2a5aee6750f0f245c96ce2f14395463b/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
         }
     ]
 }

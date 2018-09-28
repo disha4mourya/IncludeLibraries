@@ -1,35 +1,27 @@
 #Internal package file, do not edit.
-#Wed Sep 26 17:37:29 IST 2018
-7.path=classes.dex
-2.base=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/5
+#Fri Sep 28 07:55:00 IST 2018
+2.base=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/24
 5.set=DEX
 0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/8
-7.baseType=DIRECTORY
+3.base=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/22
 2.set=DEX
 1.path=classes.dex
-4.base=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/2
-7.set=DEX
-count=8
+4.base=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/23
+count=6
 5.baseType=DIRECTORY
 2.path=classes.dex
-5.base=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/1
+5.base=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/19
 4.set=DEX
 3.path=classes.dex
-6.base=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/4
 3.baseType=DIRECTORY
 1.set=DEX
 4.path=classes.dex
-7.base=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/0
-6.set=DEX
 1.baseType=DIRECTORY
-6.baseType=DIRECTORY
 5.path=classes.dex
-0.base=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/3
+0.base=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/20
 0.baseType=DIRECTORY
 3.set=DEX
-6.path=classes.dex
-1.base=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/6
+1.base=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/21
 4.baseType=DIRECTORY
 0.set=DEX

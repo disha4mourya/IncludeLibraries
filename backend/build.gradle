@@ -31,8 +31,8 @@ appengine {  // App Engine tasks configuration
         stopPreviousVersion = true  // default - stop the current version
         promote = true              // default - & make this the current version
     }
-   // appengine.tools.cloudSdkHome="/Users/dishamourya/Downloads/google-cloud-sdk"
-    appengine.tools.cloudSdkHome="/home/disham/Downloads/google-cloud-sdk"
+    appengine.tools.cloudSdkHome="/Users/dishamourya/Downloads/google-cloud-sdk"
+   // appengine.tools.cloudSdkHome="/home/disham/Downloads/google-cloud-sdk"
 
 
 }

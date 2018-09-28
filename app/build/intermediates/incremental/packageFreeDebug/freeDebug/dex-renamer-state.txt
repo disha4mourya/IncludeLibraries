@@ -1,24 +1,18 @@
-#Wed Sep 26 17:37:29 IST 2018
+#Fri Sep 28 07:55:00 IST 2018
 path.1=classes.dex
 path.0=classes.dex
-renamed.7=classes8.dex
-renamed.6=classes7.dex
 renamed.5=classes6.dex
 renamed.4=classes5.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.7=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/8
-base.6=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/3
-base.5=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/6
-base.4=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/5
-base.3=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/2
-base.2=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/1
-base.1=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/4
-base.0=/home/disham/Downloads/androidjavalibproject/app/build/intermediates/transforms/dexMerger/free/debug/0
-path.7=classes.dex
-path.6=classes.dex
+base.5=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/20
+base.4=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/23
+base.3=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/21
+base.2=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/24
+base.1=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/19
+base.0=/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/transforms/dexMerger/free/debug/22
 path.5=classes.dex
 path.4=classes.dex
 path.3=classes.dex
