@@ -6,13 +6,13 @@
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1538101496040"
+    timestamp="1538102736377"
     token="4263992170814642247"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="260" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -70,7 +70,31 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1538101496040"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1538102136578"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/split-apk/free/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/split-apk/free/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/split-apk/free/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/split-apk/free/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/split-apk/free/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/intermediates/split-apk/free/debug/slices/slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1538102736377"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/dishamourya/Disha/Android Projects/IncludeLibrariess/app/build/outputs/apk/free/debug/app-free-debug.apk"
