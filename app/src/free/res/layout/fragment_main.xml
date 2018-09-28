@@ -12,14 +12,15 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:background="@drawable/above_bg"
+
+            android:background="@drawable/header_bg"
             android:paddingBottom="@dimen/activity_vertical_margin"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
             android:paddingTop="@dimen/activity_vertical_margin"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.8">
+            android:layout_weight="1">
             <ProgressBar
                 android:id="@+id/pbLoadJoke"
                 android:layout_width="wrap_content"
@@ -40,21 +41,28 @@
                 android:onClick="tellJoke"
                 android:text="@string/button_text" />
         </LinearLayout>
-        <LinearLayout
+        <RelativeLayout
             android:orientation="vertical"
             android:background="@color/colorPrimaryDark"
             android:layout_weight="0.8"
             android:layout_width="match_parent"
             android:layout_height="0dp">
 
-        </LinearLayout>
+            <ImageView
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/circle_inside_another_circle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
         <LinearLayout
-            android:background="@drawable/below_bg"
+            android:background="@drawable/footer_bg"
             android:orientation="vertical"
-            android:layout_weight="1.4"
+            android:layout_weight="1.3"
             android:layout_width="match_parent"
             android:layout_height="0dp">
-
 
         </LinearLayout>
     </LinearLayout>

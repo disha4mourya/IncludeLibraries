@@ -1,43 +1,43 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
+ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
 	package
-		ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-		ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-		ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:1-9:12
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:5:5-7:19
+ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:5:5-7:19
 activity#com.example.libandroid.ShowJokes
-ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:6:9-56
+ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:6:9-56
 	android:name
-		ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml:6:19-44
+		ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml:6:19-44
 uses-sdk
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-		ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-		ADDED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
-		INJECTED from /Users/dishamourya/Disha/Android Projects/IncludeLibrariess/libShowJokes/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+		ADDED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
+		INJECTED from /home/disham/Downloads/androidjavalibproject/libShowJokes/src/main/AndroidManifest.xml
