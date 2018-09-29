@@ -12,7 +12,7 @@ public final class R {
         public static int animAddRemoveDuration = 0x7f04002b;
         public static int animDuration = 0x7f04002c;
         public static int animType = 0x7f04002d;
-        public static int cardRatio = 0x7f04004b;
+        public static int cardRatio = 0x7f040050;
     }
     public static final class id {
         public static int front = 0x7f0c0027;
@@ -23,7 +23,7 @@ public final class R {
         public static int app_name = 0x7f15001e;
     }
     public static final class styleable {
-        public static int[] InfiniteCardView = { 0x7f04002a, 0x7f04002b, 0x7f04002c, 0x7f04002d, 0x7f04004b };
+        public static int[] InfiniteCardView = { 0x7f04002a, 0x7f04002b, 0x7f04002c, 0x7f04002d, 0x7f040050 };
         public static int InfiniteCardView_animAddRemoveDelay = 0;
         public static int InfiniteCardView_animAddRemoveDuration = 1;
         public static int InfiniteCardView_animDuration = 2;

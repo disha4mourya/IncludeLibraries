@@ -1,6 +1,5 @@
 package com.example.libandroid;
 
-import android.view.View;
 import android.view.animation.LinearInterpolator;
 
 import com.bakerj.infinitecards.InfiniteCardView;

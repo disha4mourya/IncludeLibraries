@@ -7,20 +7,22 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 public class CardAdapter extends BaseAdapter {
-    private String[] resIds;
+    private String[] jokesList;
+    private int[] colorIds = {R.color.colorYellow, R.color.colorSkyBlue, R.color.colorLightSkyBlue, R.color.colorCard
+            , R.color.colorLightAccent, R.color.colorPrimary};
 
-    CardAdapter(String[] resIds) {
-        this.resIds = resIds;
+    CardAdapter(String[] jokesList) {
+        this.jokesList = jokesList;
     }
 
     @Override
     public int getCount() {
-        return resIds.length;
+        return jokesList.length;
     }
 
     @Override
     public String getItem(int position) {
-        return resIds[position];
+        return jokesList[position];
     }
 
     @Override
@@ -35,7 +37,9 @@ public class CardAdapter extends BaseAdapter {
                     .item_card, parent, false);
         }
         TextView tvJoke = convertView.findViewById(R.id.tvJoke);
-        tvJoke.setText(resIds[position]);
+        tvJoke.setText(jokesList[position]);
+        if (position < colorIds.length)
+            convertView.setBackgroundResource(colorIds[position]);
         return convertView;
     }
 }

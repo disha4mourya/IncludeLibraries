@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorAccent">#FD3C7E</color>
+    <color name="colorBlack">#000000</color>
     <color name="colorCard">#008080</color>
+    <color name="colorLightAccent">#fec3d8</color>
+    <color name="colorLightPrimary">#275F8E</color>
+    <color name="colorLightSkyBlue">#d5ddf9</color>
+    <color name="colorPrimary">#27368E</color>
+    <color name="colorPrimaryDark">#111C5C</color>
+    <color name="colorSkyBlue">#74f2bb</color>
     <color name="colorWhite">#FFFFFF</color>
+    <color name="colorYellow">#fadc91</color>
     <string name="app_name">libAndroid</string>
+    <string name="change">change</string>
     <string name="jokes">joke</string>
+    <string name="new_user">NewUser</string>
+    <string name="next">next</string>
+    <string name="pre">pre</string>
     <string name="split_key">, next</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 </resources>

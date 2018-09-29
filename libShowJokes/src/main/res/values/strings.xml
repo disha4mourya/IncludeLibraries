@@ -2,4 +2,8 @@
     <string name="app_name">libAndroid</string>
     <string name="jokes">joke</string>
     <string name="split_key">, next</string>
+    <string name="pre">pre</string>
+    <string name="change">change</string>
+    <string name="next">next</string>
+    <string name="new_user">NewUser</string>
 </resources>
